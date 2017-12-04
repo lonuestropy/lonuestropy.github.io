@@ -1,0 +1,17 @@
+{
+  "name": "lo-nuestro-website",
+  "version": "1.0.0",
+  "description": "Sitio web de Lo Nuestro",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

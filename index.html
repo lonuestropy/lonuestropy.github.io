@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lo Nuestro</title>
+
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.11';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Lo Nuestro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactos">Contactos</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+
+
+
+
+      <div class="container-fluid non-padding">
+        <!-- Carousel START -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="first-slide" src="images\cuadrado-papel.jpg" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption text-center">
+                  <img src="images\Lo-Nuestro---Logo-rectangular-de-colores-con-sombra.png" class="logo">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="first-slide" src="images\23622546_1487344774680915_677098321093695168_n.jpg" alt="First slide">
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h1>Artesanal</h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="second-slide" src="images\23172879_1477817848966941_8784728146300781717_n.jpg" alt="Second slide">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Reciclado</h1>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="third-slide" src="images\23244195_1475010009247725_3621792082867407043_n.jpg" alt="Third slide">
+              <div class="container">
+                <div class="carousel-caption text-right">
+                  <h1>Innovador</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!-- END -->
+
+
+
+      <!-- Productos START -->
+      <div class="container" id="productos">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="images\22008244_1443613879054005_8262634510478025244_n.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Muebles</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="images\23172963_1477817645633628_947293501995925281_n.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Hamacas</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="images\18447411_1324018054346922_6875813667476515246_n.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Bufandas</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <!-- END -->
+
+
+
+
+
+
+
+      <!-- FOOTER -->
+      <footer class="container" id="contactos">
+        <br>
+        <div class="row">
+          <div class="col">
+            <b>Teléfono:</b> (0981) 813-393 <br>
+            <b>Dirección:</b> Roberto Badén c/ Cantalicia Lugo <br>
+            <b>Ciudad:</b> San Lorenzo
+          </div>
+          <div class="col text-right">
+            <div class="fb-page" data-href="https://www.facebook.com/lonuestropy/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/lonuestropy/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lonuestropy/">Lo Nuestro</a></blockquote></div>
+          </div>
+        </div>
+
+        <br>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>Lo Nuestro 2017· <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+      </footer>
+
+    </main>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="node_modules\jquery\jquery.min.js"></script>
+    <script src="node_modules\popper.js\dist\popper.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+      $('.carousel').carousel();
+    </script>
+  </body>
+</html>

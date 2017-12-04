@@ -1,0 +1,16 @@
+.non-padding {
+  padding: 0px;
+}
+
+
+.logo {
+  height: 130px;
+  top: -120px;
+  position: relative;
+}
+
+
+.carousel-item > img {
+  min-width: 100%;
+  height: auto;
+}
